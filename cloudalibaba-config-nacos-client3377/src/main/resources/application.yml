@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    active: dev # \u8868\u793A\u5F00\u53D1\u73AF\u5883
+#    active: test # \u8868\u793A\u6D4B\u8BD5\u73AF\u5883
+#    active: info #

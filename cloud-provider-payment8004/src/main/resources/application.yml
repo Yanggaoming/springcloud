@@ -1,0 +1,15 @@
+server:
+  port: 8004
+spring:
+#  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource #\u5F53\u524D\u6570\u636E\u6E90\u64CD\u4F5C\u7C7B\u578B
+#    driver-class-name: org.gjt.mm.mysql.Driver
+#    url: jdbc:mysql://localhost:3306/employee?useUnicode=true&characterEncoding=utf-8&userSSL-false
+#    username: root
+#    password: 123456
+  application:
+    name: cloud-provider-payment
+    #zookeeper 是临时性的，停掉服务会清除服务节点，启动服务重新生成服务ID
+  cloud:
+    zookeeper:
+      connect-string: 192.168.11.128:2181
